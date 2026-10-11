@@ -1,0 +1,11 @@
+{
+  "mcp": {
+    "servers": {
+      "screenenv": {
+        "command": "docker",
+        "args": ["exec", "-i", "screenenv_container", "python", "-m", "screenenv.mcp_server"],
+        "transport": "stdio"
+      }
+    }
+  }
+}
